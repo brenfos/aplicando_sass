@@ -1,0 +1,32 @@
+header{
+    height: 10vh;
+        div{
+        nav{
+            z-index: 9;
+            div{
+                a{
+                    color: $special_color !important;
+                    font-family: 'Aref Ruqaa Ink', serif;
+                    &:hover{
+                        background-color: rgb(146, 146, 146);
+                        border-radius: 20px;
+                        transform: scale(1.2);
+                        transition: transform 1s;
+                    }  
+                }
+             div{
+                .navbar-nav > li{
+                    padding-left:2.5em;
+                    padding-right:2.5em;
+             }
+
+            }
+        }
+    
+    }
+    
+}
+}
+
+
+

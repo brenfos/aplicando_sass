@@ -1,0 +1,19 @@
+main{
+    height: 80vh;
+    section{
+        div{
+         border-radius: 30px;
+         h5, p{
+            font-family: $special_font;
+            color: $special_color;
+            text-align: center;
+            &:hover{
+                transform: scale(1.2);
+                        transition: transform 3s;
+            }
+        }
+         
+        }
+    }
+
+}

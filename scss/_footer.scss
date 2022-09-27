@@ -1,0 +1,9 @@
+footer{
+    height: 10vh;
+    font-family: $special_font;
+    font-weight: bolder;
+    color: $special_color;
+    &:hover{
+        background-color: rgb(22, 22, 22);
+    }
+}

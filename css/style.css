@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  width: 100 vw;
+  background-color: black;
+}
+
+header {
+  height: 10vh;
+}
+header div nav {
+  z-index: 9;
+}
+header div nav div a {
+  color: aliceblue !important;
+  font-family: "Aref Ruqaa Ink", serif;
+}
+header div nav div a:hover {
+  background-color: rgb(146, 146, 146);
+  border-radius: 20px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+header div nav div div .navbar-nav > li {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+main {
+  height: 80vh;
+}
+main section div {
+  border-radius: 30px;
+}
+main section div h5, main section div p {
+  font-family: "Raleway", sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+main section div h5:hover, main section div p:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 3s;
+  transition: -webkit-transform 3s;
+  transition: transform 3s;
+  transition: transform 3s, -webkit-transform 3s;
+}
+
+footer {
+  height: 10vh;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  color: aliceblue;
+}
+footer:hover {
+  background-color: rgb(22, 22, 22);
+}
